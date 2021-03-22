@@ -10,10 +10,14 @@
     height: 250px;
     margin: 20px 10px;
     float: left;
+    box-shadow: 1px 1px grey;
     border-radius: 15%;
     background-image: url("../img/pattern.png");
-    background-position:center;
-    background-repeat: repeat;
+    background-repeat:repeat;
+    background-color: white;
+}
+img{
+    height: 100;
 }
 /* body */
 .container {
@@ -38,10 +42,44 @@ main {
     display: table;
     clear: both;
 }
+h4 {
+    overflow: hidden;
+}
+/* hover */
+.baloon:hover,
+.bicycle:hover,
+.cruise:hover,
+.submarine:hover,
+.tractor:hover,
+.tram:hover {
+    background-position: center;
+    background-size: 150px;
+    background-repeat: no-repeat;
+}
+.baloon:hover {
+    background-image: url('../img/noun_air_balloon_3134741.png');
+    
+}
+.bicycle:hover {
+    background-image: url('../img/noun_Bicycle_3134821.png');
+}
+.tractor:hover {
+    background-image: url('../img/noun_Tractor_3134797.png');
+}
+.submarine:hover {
+    background-image: url('../img/noun_Submarine_3134738.png');
+}
+.cruise:hover {
+    background-image: url('../img/noun_Cruise_Ship_3134824.png');
+}
+.tram:hover {
+    background-image: url('../img/noun_Tram_3134750.png');
+}
 /* footer */
 .autore {
     width: 50%;
     height : 40px;
     margin: auto;
-    background-color: black;
+    font-size: 25px;
+    text-align: center;
 }
